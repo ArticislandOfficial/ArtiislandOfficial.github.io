@@ -1,0 +1,49 @@
+/* Variables */
+:root {
+  /* fuentes  */
+  --fuenteheading: 'Montserrat', sans-serif;
+  --fuenteparrafos: 'Montserrat', sans-serif;
+
+  --primario: #6fdfdf;
+  --secundario: #FF6FB5;
+  --tercero: #fff;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: var(--fuenteparrafos);
+  font-size: 1.6rem;
+  line-height: 2; /*interlineado*/
+}
+/* Globales */
+.contenedor{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    background-color:var(--primario);
+}
+img {
+ height: 100%;
+ width: 100%;
+ object-fit: contain;
+}
+.cat {
+ height:300px;
+ width: 300px;
+}
+.contenedor_nav{
+    display: flex;
+    justify-content: end;
+}
+.formato{
+color: var(--tercero) ;
+}
