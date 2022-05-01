@@ -53,6 +53,23 @@ img {
   gap: 6rem;
   max-width: 100%;
 }
+.formato:hover{
+color: var(--secundario);
+}
+@media (max-width: 768px) {
+  .contenedor-header{
+    display: flex;
+    flex-direction: column;
+  }
+  .mincoliResposivo{
+display: flex;
+justify-content: center;
+  }
+  .contenedor_nav{
+    display: flex;
+    flex-direction: column;
+  }
+}
 .formato {
   color: var(--tercero);
 }
@@ -329,6 +346,7 @@ h2 {
   /* position: absolute;
   top: 0;
   left: 0; */
+  margin: 1rem;
   width: 100%;
   height: 100%;
   display: flex;
