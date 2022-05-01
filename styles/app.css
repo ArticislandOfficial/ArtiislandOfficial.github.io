@@ -53,7 +53,7 @@ img {
   gap: 6rem;
   max-width: 100%;
 }
-.formato:hover{
+.formatonav:hover{
 color: var(--secundario);
 }
 @media (max-width: 768px) {
@@ -70,7 +70,7 @@ justify-content: center;
     flex-direction: column;
   }
 }
-.formato {
+.formato ,.formatonav {
   color: var(--tercero);
 }
 
